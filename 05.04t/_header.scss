@@ -1,0 +1,29 @@
+header{
+    height: 70px;
+    background-color:white;
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+
+       &_logo{
+        font-size: 30px;
+
+       }
+       &_links{
+        display: flex;
+        &_item{
+            padding-right: 15px;
+            a{
+                color: #000;
+            }
+        }
+       }
+       &_btn{
+        @include button($primary-red:red);
+       }
+
+        
+    }
+}

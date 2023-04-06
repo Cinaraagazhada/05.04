@@ -1,0 +1,27 @@
+header {
+  height: 70px;
+  background-color: beige;
+}
+header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+header .nav_logo {
+  font-size: 30px;
+}
+header .nav_links {
+  display: flex;
+  color: #000;
+}
+header .nav_links_item {
+  margin-right: 15px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}/*# sourceMappingURL=main.css.map */
